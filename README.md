@@ -16,3 +16,5 @@ caveats
 an example of use:
 =======
 ./srtp-decrypt -s AES_CM_128_HMAC_SHA1_80 -b ZfSkISbtsGTKws4Gi0txMeLhgrAjlU5uQCuvZgLv < ./enc_stream.pcap | text2pcap -t "%M:%S." -u 10000,10000 - - > ./dec_stream.pcap
+
+https://www.zoiper.com/en/support/home/article/162/How%20to%20decode%20SIP%20over%20TLS%20with%20Wireshark%20and%20Decrypting%20SDES%20Protected%20SRTP%20Stream
